@@ -1,0 +1,61 @@
+book_id,title,author,genre,year,total_copies,available_copies
+B001,Introduction to Algorithms,Thomas H. Cormen,Computer Science,2009,5,5
+B002,The Algorithm Design Manual,Steven S. Skiena,Computer Science,2008,3,3
+B003,Algorithms,Robert Sedgewick,Computer Science,2011,3,2
+B004,Data Structures Using C,Reema Thareja,Computer Science,2014,4,4
+B005,Fundamentals of Computer Algorithms,Ellis Horowitz,Computer Science,2008,4,3
+B006,Let Us C,Yashavant Kanetkar,Computer Science,2017,4,4
+B007,Clean Code,Robert C. Martin,Computer Science,2008,2,2
+B008,The Pragmatic Programmer,Andrew Hunt,Computer Science,1999,2,2
+B009,Computer Networks,Andrew S. Tanenbaum,Computer Science,2010,3,3
+B010,Operating System Concepts,Abraham Silberschatz,Computer Science,2018,3,3
+B011,Database System Concepts,Abraham Silberschatz,Computer Science,2019,3,0
+B012,Artificial Intelligence: A Modern Approach,Stuart Russell,Computer Science,2020,2,2
+B013,Discrete Mathematics and Its Applications,Kenneth H. Rosen,Mathematics,2018,3,3
+B014,Higher Engineering Mathematics,B. S. Grewal,Mathematics,2017,5,5
+B015,Linear Algebra Done Right,Sheldon Axler,Mathematics,2015,2,1
+B016,Concepts of Physics,H. C. Verma,Science,2017,4,4
+B017,A Brief History of Time,Stephen Hawking,Science,1988,2,2
+B018,The Selfish Gene,Richard Dawkins,Science,1976,2,0
+B019,Cosmos,Carl Sagan,Science,1980,1,0
+B020,Sapiens,Yuval Noah Harari,History,2011,3,2
+B021,The Discovery of India,Jawaharlal Nehru,History,1946,2,2
+B022,India After Gandhi,Ramachandra Guha,History,2007,2,2
+B023,"Guns, Germs, and Steel",Jared Diamond,History,1997,1,0
+B024,Wings of Fire,A. P. J. Abdul Kalam,Biography,1999,3,2
+B025,The Story of My Experiments with Truth,M. K. Gandhi,Biography,1927,2,2
+B026,Steve Jobs,Walter Isaacson,Biography,2011,2,0
+B027,Long Walk to Freedom,Nelson Mandela,Biography,1994,1,0
+B028,Atomic Habits,James Clear,Self-Help,2018,3,3
+B029,Deep Work,Cal Newport,Self-Help,2016,2,2
+B030,"Thinking, Fast and Slow",Daniel Kahneman,Self-Help,2011,2,1
+B031,The Psychology of Money,Morgan Housel,Self-Help,2020,2,2
+B032,Ikigai,Hector Garcia,Self-Help,2016,2,2
+B033,Pride and Prejudice,Jane Austen,Fiction,1813,2,2
+B034,1984,George Orwell,Fiction,1949,3,3
+B035,Animal Farm,George Orwell,Fiction,1945,2,2
+B036,To Kill a Mockingbird,Harper Lee,Fiction,1960,2,1
+B037,The Great Gatsby,F. Scott Fitzgerald,Fiction,1925,2,2
+B038,The Alchemist,Paulo Coelho,Fiction,1988,3,2
+B039,The Guide,R. K. Narayan,Fiction,1958,2,1
+B040,Malgudi Days,R. K. Narayan,Fiction,1943,2,1
+B041,Godan,Munshi Premchand,Fiction,1936,2,0
+B042,The God of Small Things,Arundhati Roy,Fiction,1997,1,0
+B043,Midnight's Children,Salman Rushdie,Fiction,1981,1,1
+B044,The White Tiger,Aravind Adiga,Fiction,2008,2,2
+B045,Gitanjali,Rabindranath Tagore,Poetry,1910,1,1
+B046,Brave New World,Aldous Huxley,Fiction,1932,1,0
+B047,The Hobbit,J. R. R. Tolkien,Fiction,1937,2,2
+B048,Harry Potter and the Philosopher's Stone,J. K. Rowling,Fiction,1997,3,1
+B049,The Little Prince,Antoine de Saint-Exupery,Fiction,1943,1,1
+B050,Crime and Punishment,Fyodor Dostoevsky,Fiction,1866,1,0
+B051,War and Peace,Leo Tolstoy,Fiction,1869,1,0
+B052,The Old Man and the Sea,Ernest Hemingway,Fiction,1952,1,1
+B053,Rich Dad Poor Dad,Robert Kiyosaki,Finance,1997,2,1
+B054,The Intelligent Investor,Benjamin Graham,Finance,1949,1,0
+B055,Zero to One,Peter Thiel,Business,2014,2,2
+B056,The Lean Startup,Eric Ries,Business,2011,1,0
+B057,Head First Java,Kathy Sierra,Computer Science,2005,2,2
+B058,Python Crash Course,Eric Matthes,Computer Science,2019,3,3
+B059,Hands-On Machine Learning,Aurelien Geron,Computer Science,2019,2,1
+B060,Design Patterns,Erich Gamma,Computer Science,1994,1,0
