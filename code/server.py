@@ -1,6 +1,7 @@
 """Website backend for the Library Book Management System.
 
 Run:  python server.py      then open http://localhost:5000
+Host: gunicorn server:app  (one worker: the library lives in this process's memory)
 The website (web/) only displays things. Every action is a call to this server, which runs the
 data structures and algorithms in library_core.py: the request queue, the waitlists, the return
 stack, merge sort and linear / binary search.
@@ -300,8 +301,9 @@ def api_admin(action):
     return jsonify(snapshot())
 
 
+load_demo()     # runs on import too, so a host's server (gunicorn server:app) starts with the demo library
+
 if __name__ == "__main__":
-    load_demo()
     port = next((int(a) for a in sys.argv[1:] if a.isdigit()), 5000)
     if "--no-browser" not in sys.argv:
         Timer(1.0, lambda: webbrowser.open(f"http://localhost:{port}")).start()

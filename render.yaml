@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: libraryos
+    runtime: python
+    plan: free
+    rootDir: code
+    buildCommand: pip install -r requirements.txt
+    # One worker: the library is kept in this process's memory.
+    startCommand: gunicorn server:app --workers 1 --bind 0.0.0.0:$PORT --timeout 120
+    healthCheckPath: /api/state
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7

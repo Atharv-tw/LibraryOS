@@ -29,6 +29,15 @@ python server.py
 
 It opens http://localhost:5000. Use **Data ▾ → Reset demo scenario** to get a library with waiting requests, waitlists and a return stack. Stop it with Ctrl+C.
 
+## Deploying the website (Render, free)
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Atharv-tw/LibraryOS)
+
+`render.yaml` sets everything up: Python, `pip install -r code/requirements.txt`, and `gunicorn server:app` with one worker, because the library lives in the server's memory. Things to know about the free plan:
+- **It sleeps when idle.** After about 15 minutes without visits, the first visit takes up to a minute to wake it.
+- **Changes don't last.** Every restart goes back to the demo library.
+- **One shared library.** Everyone who opens the link sees and changes the same library.
+
 ## Running the notebook in Google Colab
 
 1. Open https://colab.research.google.com and choose **File > Upload notebook**.
